@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+ >
+
+    <Button
+        android:id="@+id/bindButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bind_button_string"
+        android:textSize="24dp"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/hello_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接口回调"
+        android:textSize="24dp"
+        android:layout_below="@id/bindButton"
+        android:enabled="true"
+        />
+
+    <Button
+        android:id="@+id/unbind_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unbind_button_string"
+        android:textSize="24dp"
+        android:layout_below="@id/hello_button"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/btn_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基本数据"
+        android:textSize="24dp"
+        android:layout_below="@id/unbind_button"
+        android:enabled="true"/>
+    <Button
+        android:id="@+id/btn_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="in"
+        android:textSize="24dp"
+        android:layout_below="@id/btn_base"
+        android:enabled="true"/>
+    <Button
+        android:id="@+id/btn_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="out"
+        android:textSize="24dp"
+        android:layout_below="@id/btn_in"
+        android:enabled="true"/>
+    <Button
+        android:id="@+id/btn_inout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="inout"
+        android:textSize="24dp"
+        android:layout_below="@id/btn_out"
+        android:enabled="true"/>
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="list"
+        android:textSize="24dp"
+        android:layout_below="@id/btn_inout"
+        android:enabled="true"/>
+
+
+</RelativeLayout>

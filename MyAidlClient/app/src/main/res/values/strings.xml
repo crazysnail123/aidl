@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyAidlClient</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="bind_button_string">bind to the service</string>
+    <string name="unbind_button_string">unbind to the service</string>
+    <string name="hello_button_string">say hello</string>
+</resources>
